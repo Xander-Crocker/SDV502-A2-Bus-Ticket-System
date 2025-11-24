@@ -17,9 +17,11 @@
   },
   "devDependencies": {
     "jest": "^30.2.0",
+    "jest-circus": "^30.2.0",
     "jest-environment-jsdom": "^30.2.0"
   },
   "jest": {
-    "testEnvironment": "jest-environment-jsdom"
+    "testEnvironment": "jest",
+    "testRunner": "jest-circus/runner"
   }
 }
