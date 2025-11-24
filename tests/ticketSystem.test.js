@@ -26,7 +26,7 @@ function getConfirmationMessage(name, destination, seats) {
 
 // Jest tests
 describe('Bus Ticket Booking System Logic', () => {
-    // Test 1 - Valid booking input should return a confirmation message 
+    // Test 1 - Valid booking input should return a confirmation message
     test('Successfully books with valid input', () => {
         // Simulate valid booking
         const message = getConfirmationMessage('Alice', 'Auckland', 2); 
